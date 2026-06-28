@@ -24,6 +24,7 @@ related:
   - "[[Linear Algebra]]"
   - "[[Data Science from Scratch]]"
   - "[[DSFS vs PRML]]"
+  - "[[Deep Learning (Goodfellow, Bengio, Courville)]]"
 ---
 
 # Source: Pattern Recognition and Machine Learning

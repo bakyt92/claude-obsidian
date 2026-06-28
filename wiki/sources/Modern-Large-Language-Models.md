@@ -22,6 +22,8 @@ related:
   - "[[Retrieval-Augmented Generation]]"
   - "[[From-Scratch Pedagogy]]"
   - "[[Linear Algebra]]"
+  - "[[Deep Learning (Goodfellow, Bengio, Courville)]]"
+  - "[[Backpropagation]]"
 ---
 
 # Source: Modern Large Language Models

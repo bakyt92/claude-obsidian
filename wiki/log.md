@@ -25,6 +25,13 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-06-28] ingest | Deep Learning (Goodfellow, Bengio, Courville)
+- Source: `.raw/articles/deep-learning-goodfellow-2026-06-28.md` (PDF at `.raw/pdfs/deep-learning-goodfellow.pdf`, 801pp; no embedded outline, ToC read from text)
+- Summary: [[Deep Learning (Goodfellow, Bengio, Courville)]]
+- Pages created: [[Ian Goodfellow]], [[Yoshua Bengio]], [[MIT Press]], [[Backpropagation]], [[Generative Adversarial Network]], [[Recurrent Neural Network]]
+- Pages updated: [[Linear Algebra]], [[Self-Attention]], [[Modern Large Language Models]], [[Pattern Recognition and Machine Learning]], [[index]], [[hot]]
+- Key insight: The foundational DL text — but it PREDATES the transformer (2016 vs 2017), so it teaches sequence modeling via [[Recurrent Neural Network|RNNs/LSTMs]]. Filed an explicit `> [!gap]` on both the source and the RNN page marking the before/after of the attention revolution. Adds the training-math bedrock ([[Backpropagation]]) under the whole AI cluster.
+
 ## [2026-06-28] ingest | Modern Large Language Models (Daniel R. Holt)
 - Source: `.raw/articles/modern-large-language-models-2026-06-28.md` (PDF at `.raw/pdfs/modern-large-language-models.pdf`, 721pp, outline+metadata via pypdf)
 - Summary: [[Modern Large Language Models]]

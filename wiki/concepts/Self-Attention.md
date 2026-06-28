@@ -14,6 +14,7 @@ related:
   - "[[Transformer]]"
   - "[[Modern Large Language Models]]"
   - "[[Linear Algebra]]"
+  - "[[Recurrent Neural Network]]"
 ---
 
 # Self-Attention
@@ -33,6 +34,8 @@ The mechanism at the heart of the [[Transformer]]: each token decides **how much
 ## Cost and modern variants
 
 Naive self-attention is **O(n²)** in sequence length. [[Modern Large Language Models]] (Ch 17) covers the efficiency lineage: FlashAttention (IO-aware exact attention), grouped/multi-query attention (GQA/MQA, fewer K/V heads), KV caching for fast inference, and recurrent Mamba-style alternatives.
+
+Attention's rise is best understood against what it replaced: the sequential [[Recurrent Neural Network]] (RNN/LSTM), which couldn't parallelize across positions and strained on long-range dependencies. Self-attention removed the recurrence entirely.
 
 ## Grounding
 

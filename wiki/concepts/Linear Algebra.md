@@ -37,7 +37,7 @@ Most of [[MIT 18.06 Linear Algebra]] can be read as a tour of decompositions, ea
 
 ## Why it matters to ML
 
-[[Pattern Recognition and Machine Learning]] explicitly *assumes* linear algebra and builds on it: PCA is an eigen/SVD problem, linear regression is least squares (projection onto the column space), and kernel methods live in inner-product spaces. 18.06 supplies exactly this background. For a hands-on counterpart, [[Data Science from Scratch]] (Chapter 4) implements vectors and matrices from scratch in Python rather than assuming them.
+[[Pattern Recognition and Machine Learning]] explicitly *assumes* linear algebra and builds on it: PCA is an eigen/SVD problem, linear regression is least squares (projection onto the column space), and kernel methods live in inner-product spaces. 18.06 supplies exactly this background. For a hands-on counterpart, [[Data Science from Scratch]] (Chapter 4) implements vectors and matrices from scratch in Python rather than assuming them. [[Deep Learning (Goodfellow, Bengio, Courville)]] devotes its Chapter 2 to exactly this linear-algebra primer (SVD, eigendecomposition, pseudoinverse, PCA) as the foundation for deep nets.
 
 ## Core threads (see the course for full treatment)
 
