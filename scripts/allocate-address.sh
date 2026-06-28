@@ -31,12 +31,33 @@ mkdir -p "$(dirname "$COUNTER_FILE")" || {
   exit 2
 }
 
-# Acquire exclusive lock with 5-second timeout. Release automatically on scope exit.
-exec 9>"$LOCK_FILE"
-if ! flock -x -w 5 9; then
-  echo "ERR: could not acquire address allocator lock within 5s" >&2
-  exit 1
-fi
+# Acquire an exclusive lock with a 5-second timeout, portably. flock(1) is
+# Linux-only (absent on macOS/BSD), so use a mkdir-based mutex — atomic on every
+# POSIX filesystem. The lock auto-releases via the EXIT trap; a stale mutex
+# (holder crashed mid-op) older than the timeout is reaped.
+LOCK_MUTEX="${LOCK_FILE}.d"
+_lock_age_secs() {
+  local m
+  if m=$(stat -f %m "$LOCK_MUTEX" 2>/dev/null); then :
+  elif m=$(stat -c %Y "$LOCK_MUTEX" 2>/dev/null); then :
+  else return 1; fi
+  echo $(( $(date +%s) - m ))
+}
+_waited=0
+while ! mkdir "$LOCK_MUTEX" 2>/dev/null; do
+  _age=$(_lock_age_secs || true)
+  if [ -n "$_age" ] && [ "$_age" -ge 5 ]; then
+    rm -rf "$LOCK_MUTEX" 2>/dev/null || true
+    continue
+  fi
+  _waited=$((_waited + 1))
+  if [ "$_waited" -ge 100 ]; then
+    echo "ERR: could not acquire address allocator lock within 5s" >&2
+    exit 1
+  fi
+  sleep 0.05
+done
+trap 'rm -rf "$LOCK_MUTEX" 2>/dev/null || true' EXIT
 
 scan_max_c_address() {
   # Emit the largest NNNNNN from "address: c-NNNNNN" lines that appear inside

@@ -189,6 +189,14 @@
   },
   "active": "a31de1b302cdc5cf",
   "lastOpenFiles": [
+    "scripts/__pycache__/contextual-prefix.cpython-313.pyc",
+    "scripts/__pycache__/wiki-mode.cpython-313.pyc",
+    "scripts/__pycache__/rerank.cpython-313.pyc",
+    "scripts/__pycache__/retrieve.cpython-313.pyc",
+    "scripts/__pycache__/bm25-index.cpython-313.pyc",
+    "scripts/__pycache__/boundary-score.cpython-313.pyc",
+    "scripts/__pycache__/tiling-check.cpython-313.pyc",
+    "scripts/__pycache__",
     "skills/wiki/references/mcp-setup.md.tmp.10673.8c4ea957938c",
     "wiki/_cli-smoketest.md"
   ]

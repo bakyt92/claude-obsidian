@@ -147,15 +147,40 @@ is_alive() {
   kill -0 "$1" 2>/dev/null
 }
 
+# Portable epoch-age (mtime) of a filesystem path. BSD/macOS use `stat -f %m`,
+# GNU/Linux use `stat -c %Y`. Echoes seconds-since-mtime, or nothing on failure.
+_path_age_secs() {
+  local m
+  if m=$(stat -f %m "$1" 2>/dev/null); then :
+  elif m=$(stat -c %Y "$1" 2>/dev/null); then :
+  else return 1; fi
+  echo $(( $(now_epoch) - m ))
+}
+
 # Atomic meta-lock wrapper. Funcs that mutate LOCK_DIR call under this lock so
-# acquire/release/clear-stale don't race against each other.
+# acquire/release/clear-stale don't race against each other. Uses a mkdir-based
+# mutex (atomic on every POSIX filesystem) instead of flock(1), which is absent
+# on macOS/BSD. A stale mutex (holder crashed mid-op) older than the 5s timeout
+# is reaped. The mutex is ALWAYS released, even when "$@" returns non-zero.
 with_meta_lock() {
   ensure_dirs
-  # Use flock under bash's redirect; meta lock is short-lived per command.
-  (
-    flock -x -w 5 9 || die "could not acquire meta-lock within 5s" 1
-    "$@"
-  ) 9>"$META_LOCK"
+  local d="${META_LOCK}.d" waited=0 age
+  while ! mkdir "$d" 2>/dev/null; do
+    age=$(_path_age_secs "$d" || true)
+    if [ -n "$age" ] && [ "$age" -ge 5 ]; then
+      rm -rf "$d" 2>/dev/null || true
+      continue
+    fi
+    waited=$((waited + 1))
+    if [ "$waited" -ge 100 ]; then
+      die "could not acquire meta-lock within 5s" 1
+    fi
+    sleep 0.05
+  done
+  local rc=0
+  "$@" || rc=$?
+  rm -rf "$d" 2>/dev/null || true
+  return "$rc"
 }
 
 read_lockfile() {
