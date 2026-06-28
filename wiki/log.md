@@ -25,6 +25,13 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-06-28] ingest | Designing Data-Intensive Applications (Kleppmann)
+- Source: `.raw/articles/designing-data-intensive-applications-2026-06-28.md` (PDF at `.raw/pdfs/designing-data-intensive-applications.pdf`, 491pp early-release; outline via pypdf)
+- Summary: [[Designing Data-Intensive Applications]]
+- Pages created: [[Martin Kleppmann]], [[Distributed Systems]], [[Reliability Scalability Maintainability]]
+- Pages updated: [[O'Reilly Media]] (now 2 vault books), [[index]], [[hot]]
+- Key insight: Opens a NEW domain — distributed systems / data engineering — distinct from the ML cluster but sitting underneath it (the infra data science runs on). Notable self-referential hook: DDIA Ch7-9 (transactions/consistency) is the theory behind the vault's own v1.7 multi-writer locking; linked to [[DragonScale Memory]].
+
 ## [2026-06-28] ingest | Data Science for Beginners (Microsoft)
 - Source: `.raw/articles/data-science-for-beginners-2026-06-28.md` (from https://github.com/microsoft/Data-Science-For-Beginners)
 - Summary: [[Data Science for Beginners]]
