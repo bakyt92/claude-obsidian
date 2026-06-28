@@ -40,4 +40,11 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## Mathematics
+
+- [[Linear Algebra]] — vector spaces and linear maps; the factorization-centric view (LU/QR/SΛS⁻¹/SVD) and the substrate of modern ML
+- [[Four Fundamental Subspaces]] — Strang's "big picture": column/row space, null/left-null space and their orthogonality
+
+---
+
 ## Add new concepts here as they are extracted from sources.

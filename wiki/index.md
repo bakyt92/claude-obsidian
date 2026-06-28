@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-04-15 | Total pages: 34 | Sources ingested: 2
+Last updated: 2026-06-28 | Total pages: 41 | Sources ingested: 3
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -44,6 +44,8 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Persistent Wiki Artifact]]: durable Markdown page as the LLM's memory object, distinct from ephemeral chat turns (status: developing)
 - [[Source-First Synthesis]]: provenance discipline; raw sources stay immutable while the wiki layer is synthesized and cited (status: developing)
 - [[Query-Time Retrieval]]: wiki query path synthesizes with citations; complementary to Obsidian's in-vault search (status: developing)
+- [[Linear Algebra]] — mathematics of vector spaces and linear maps; the factorization-centric view (LU/QR/SΛS⁻¹/SVD) and the substrate of modern ML (status: developing)
+- [[Four Fundamental Subspaces]] — Strang's signature framing: column/row space, null/left-null space and their orthogonality; the "big picture" of linear algebra (status: developing)
 
 ---
 
@@ -57,12 +59,16 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[kepano-obsidian-skills]] — official skills from Obsidian creator; defuddle, obsidian-bases (status: current)
 - [[Claudian-YishenTu]] — native Obsidian plugin embedding Claude Code; plan mode, @mention (status: current)
 - [[Claude SEO]] — Tier 4 Claude Code skill for SEO analysis; 23 skills, 17 agents, 30 scripts at v1.9.0 (status: evergreen)
+- [[Gilbert Strang]] — MIT mathematician; author/lecturer of 18.06 and *Introduction to Linear Algebra* (status: developing)
+- [[MIT OpenCourseWare]] — MIT's open publication of course materials; provenance host for the 18.06 archive (status: developing)
 
 ---
 
 ## Sources
 
 - [[claude-obsidian-ecosystem-research]] — 2026-04-08 | web research across 16+ repos | 8 wiki pages created
+- [[Pattern Recognition and Machine Learning]] — 2026-06-28 | Bishop 2006, canonical Bayesian ML textbook
+- [[MIT 18.06 Linear Algebra]] — 2026-06-28 | Gil Strang's course home page; opens the linear-algebra domain
 
 ---
 

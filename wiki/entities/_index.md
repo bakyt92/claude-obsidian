@@ -25,12 +25,13 @@ All entity pages — people, organizations, products, and tools.
 ## People
 
 - [[Andrej Karpathy]] — AI researcher, educator; originated the LLM Wiki pattern
+- [[Gilbert Strang]] — MIT mathematician; lecturer of 18.06 and author of *Introduction to Linear Algebra*
 
 ---
 
 ## Organizations
 
-<!-- Add organization pages here -->
+- [[MIT OpenCourseWare]] — MIT's open publication of course materials; provenance host for the 18.06 archive
 
 ---
 

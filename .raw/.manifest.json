@@ -2,8 +2,35 @@
   "version": 1,
   "created": "2026-04-23",
   "description": "Ingest delta tracker and address map for the claude-obsidian vault. Do not hand-edit; wiki-ingest maintains this.",
-  "sources": {},
+  "sources": {
+    ".raw/articles/mit-18.06-linear-algebra-2026-06-28.md": {
+      "hash": "791e21496b7a1d61146daa758d8fb551",
+      "ingested_at": "2026-06-28",
+      "pages_created": [
+        "wiki/sources/MIT-18.06-Linear-Algebra.md",
+        "wiki/entities/Gilbert Strang.md",
+        "wiki/entities/MIT OpenCourseWare.md",
+        "wiki/concepts/Linear Algebra.md",
+        "wiki/concepts/Four Fundamental Subspaces.md"
+      ],
+      "pages_updated": [
+        "wiki/sources/Pattern-Recognition-and-Machine-Learning.md",
+        "wiki/index.md",
+        "wiki/log.md",
+        "wiki/hot.md",
+        "wiki/sources/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md"
+      ]
+    }
+  },
   "address_map": {
-    "wiki/concepts/DragonScale Memory.md": "c-000001"
+    "wiki/concepts/DragonScale Memory.md": "c-000001",
+    "wiki/sources/MIT-18.06-Linear-Algebra.md": "c-000004",
+    "wiki/entities/Gilbert Strang.md": "c-000005",
+    "wiki/entities/MIT OpenCourseWare.md": "c-000006",
+    "wiki/concepts/Linear Algebra.md": "c-000007",
+    "wiki/concepts/Four Fundamental Subspaces.md": "c-000008",
+    "wiki/sources/Pattern-Recognition-and-Machine-Learning.md": "c-000003"
   }
 }

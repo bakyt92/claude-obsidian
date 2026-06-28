@@ -29,13 +29,13 @@ All source pages — summaries of ingested documents, transcripts, articles, and
 
 ## Articles
 
-<!-- Add article source pages here -->
+- [[MIT 18.06 Linear Algebra]] — 2026-06-28 | Gil Strang's course home page; opens the linear-algebra domain
 
 ---
 
 ## Papers
 
-<!-- Add paper source pages here -->
+- [[Pattern Recognition and Machine Learning]] — 2026-06-28 | Bishop 2006; canonical Bayesian ML textbook
 
 ---
 
