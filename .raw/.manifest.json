@@ -22,6 +22,28 @@
         "wiki/entities/_index.md",
         "wiki/concepts/_index.md"
       ]
+    },
+    ".raw/articles/data-science-from-scratch-2026-06-28.md": {
+      "hash": "ea97c6ba37099a85e18f725fe7163afe",
+      "ingested_at": "2026-06-28",
+      "pdf_file": ".raw/pdfs/data-science-from-scratch.pdf",
+      "pages_created": [
+        "wiki/sources/Data-Science-from-Scratch.md",
+        "wiki/entities/Joel Grus.md",
+        "wiki/entities/O'Reilly Media.md",
+        "wiki/concepts/From-Scratch Pedagogy.md",
+        "wiki/comparisons/DSFS vs PRML.md"
+      ],
+      "pages_updated": [
+        "wiki/sources/Pattern-Recognition-and-Machine-Learning.md",
+        "wiki/concepts/Linear Algebra.md",
+        "wiki/index.md",
+        "wiki/log.md",
+        "wiki/hot.md",
+        "wiki/sources/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md"
+      ]
     }
   },
   "address_map": {
@@ -31,6 +53,11 @@
     "wiki/entities/MIT OpenCourseWare.md": "c-000006",
     "wiki/concepts/Linear Algebra.md": "c-000007",
     "wiki/concepts/Four Fundamental Subspaces.md": "c-000008",
-    "wiki/sources/Pattern-Recognition-and-Machine-Learning.md": "c-000003"
+    "wiki/sources/Pattern-Recognition-and-Machine-Learning.md": "c-000003",
+    "wiki/sources/Data-Science-from-Scratch.md": "c-000009",
+    "wiki/entities/Joel Grus.md": "c-000010",
+    "wiki/entities/O'Reilly Media.md": "c-000011",
+    "wiki/concepts/From-Scratch Pedagogy.md": "c-000012",
+    "wiki/comparisons/DSFS vs PRML.md": "c-000013"
   }
 }

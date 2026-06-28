@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-06-28 | Total pages: 41 | Sources ingested: 3
+Last updated: 2026-06-28 | Total pages: 46 | Sources ingested: 4
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -46,6 +46,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Query-Time Retrieval]]: wiki query path synthesizes with citations; complementary to Obsidian's in-vault search (status: developing)
 - [[Linear Algebra]] — mathematics of vector spaces and linear maps; the factorization-centric view (LU/QR/SΛS⁻¹/SVD) and the substrate of modern ML (status: developing)
 - [[Four Fundamental Subspaces]] — Strang's signature framing: column/row space, null/left-null space and their orthogonality; the "big picture" of linear algebra (status: developing)
+- [[From-Scratch Pedagogy]] — learn a tool by building it by hand before reaching for a library; the philosophy DSFS embodies (status: developing)
 
 ---
 
@@ -61,6 +62,8 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Claude SEO]] — Tier 4 Claude Code skill for SEO analysis; 23 skills, 17 agents, 30 scripts at v1.9.0 (status: evergreen)
 - [[Gilbert Strang]] — MIT mathematician; author/lecturer of 18.06 and *Introduction to Linear Algebra* (status: developing)
 - [[MIT OpenCourseWare]] — MIT's open publication of course materials; provenance host for the 18.06 archive (status: developing)
+- [[Joel Grus]] — data scientist and author of *Data Science from Scratch*; "I Don't Like Notebooks" (status: developing)
+- [[O'Reilly Media]] — technical-book publisher; publisher of *Data Science from Scratch* (status: developing)
 
 ---
 
@@ -69,6 +72,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[claude-obsidian-ecosystem-research]] — 2026-04-08 | web research across 16+ repos | 8 wiki pages created
 - [[Pattern Recognition and Machine Learning]] — 2026-06-28 | Bishop 2006, canonical Bayesian ML textbook
 - [[MIT 18.06 Linear Algebra]] — 2026-06-28 | Gil Strang's course home page; opens the linear-algebra domain
+- [[Data Science from Scratch]] — 2026-06-28 | Joel Grus, O'Reilly 2015; implements the ML curriculum from scratch in Python
 
 ---
 
@@ -82,6 +86,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 
 - [[Wiki vs RAG]] — when to use a wiki knowledge base versus RAG; verdict: wiki wins at <1000 pages
 - [[claude-obsidian-ecosystem]] — feature matrix of 16+ Claude+Obsidian projects; where claude-obsidian wins and gaps
+- [[DSFS vs PRML]] — *Data Science from Scratch* (code-first) vs *Pattern Recognition and Machine Learning* (theory-first); a "which ML book" chooser
 
 ---
 

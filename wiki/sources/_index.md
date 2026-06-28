@@ -36,6 +36,7 @@ All source pages — summaries of ingested documents, transcripts, articles, and
 ## Papers
 
 - [[Pattern Recognition and Machine Learning]] — 2026-06-28 | Bishop 2006; canonical Bayesian ML textbook
+- [[Data Science from Scratch]] — 2026-06-28 | Grus, O'Reilly 2015; the ML curriculum implemented from scratch in Python
 
 ---
 

@@ -47,4 +47,10 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## Pedagogy
+
+- [[From-Scratch Pedagogy]] — learn a tool by building it by hand before reaching for a library; the philosophy *Data Science from Scratch* embodies
+
+---
+
 ## Add new concepts here as they are extracted from sources.
