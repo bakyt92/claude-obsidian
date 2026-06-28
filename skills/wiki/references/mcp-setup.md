@@ -81,24 +81,24 @@ Obsidian shipped a native CLI in v1.12 (2026). It exposes vault operations direc
 
 **Check if available:**
 ```bash
-which obsidian-cli 2>/dev/null && obsidian-cli --version
+which obsidian-cli 2>/dev/null && obsidian-cli version   # subcommand, NOT --version
 # or, on flatpak:
-flatpak run md.obsidian.Obsidian --cli --version
+flatpak run md.obsidian.Obsidian --cli version
 ```
 
-**Common operations:**
+**Common operations** (named `key=value` args; vault defaults to the active vault, override with `vault=<name>`):
 ```bash
-# List all notes in a folder
-obsidian-cli list /path/to/vault wiki/
+# List notes in a folder
+obsidian-cli files folder=wiki/
 
 # Read a note
-obsidian-cli read /path/to/vault wiki/index.md
+obsidian-cli read path=wiki/index.md
 
-# Create or update a note
-obsidian-cli write /path/to/vault wiki/new-note.md < content.md
+# Create or update a note (content inline; prefer filesystem Write for large bodies)
+obsidian-cli create path=wiki/new-note.md content="# Title\n\nBody." overwrite
 
 # Search notes by content
-obsidian-cli search /path/to/vault "query term"
+obsidian-cli search query="query term"
 ```
 
 **Why prefer this**:
@@ -106,7 +106,7 @@ obsidian-cli search /path/to/vault "query term"
 - No MCP server process to manage
 - No TLS certificate bypass needed
 - Survives Obsidian restarts (no persistent connection)
-- Works identically across desktop and headless environments
+- Desktop-only: it drives the running Obsidian app, so it needs Obsidian installed and open. For headless/CI, fall back to filesystem.
 
 **When to use Options A/B/C instead**: If you need persistent semantic search, frontmatter patching, or are on Obsidian < v1.12.
 

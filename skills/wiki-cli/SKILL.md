@@ -61,21 +61,29 @@ bash scripts/detect-transport.sh --force
 
 ## Recipes (CLI-first; fallback noted inline)
 
-Each recipe shows the CLI form first. If the CLI is unavailable per the detection snapshot, fall through to the noted fallback. Variable substitution: `$VAULT` is the absolute vault root; `$NOTE` is a vault-relative path like `wiki/concepts/Foo.md`.
+Each recipe shows the CLI form first. If the CLI is unavailable per the detection snapshot, fall through to the noted fallback.
+
+**Argument model (Obsidian CLI 1.12+).** Commands take **named** `key=value` args, not positionals:
+- `path=<vault-relative-path>` is exact (`wiki/concepts/Foo.md`); `file=<name>` resolves by name like a wikilink.
+- The CLI targets a vault by **name**, not by filesystem path: `vault=<name>` (e.g. `vault=claude-obsidian`). It is **optional** — commands default to the currently active vault. `$VAULT_NAME` below is the vault's display name; append `vault="$VAULT_NAME"` to any recipe to be explicit.
+- `$NOTE` is a vault-relative path like `wiki/concepts/Foo.md`. Quote values with spaces; use `\n` for newlines inside `content=`.
+
+> ⚠️ **No `write`, no stdin.** This CLI has no `write` command and reads no stdin. New content is passed inline via `content=`. For substantial note bodies (a full wiki page), prefer the **filesystem fallback** (Claude's Write tool) — it is cleaner than escaping a multi-paragraph body into `content=`. Use the CLI for reads, appends, property patches, and small creates.
 
 ### Read a note
 ```bash
 # CLI
-obsidian-cli read "$VAULT" "$NOTE"
+obsidian-cli read path="$NOTE"            # add vault="$VAULT_NAME" to target a specific vault
 
 # Fallback: Claude's Read tool with absolute path
-# Read $VAULT/$NOTE
+# Read $VAULT/$NOTE   (where $VAULT is the absolute vault root)
 ```
 
 ### Create or overwrite a note
 ```bash
-# CLI
-obsidian-cli write "$VAULT" "$NOTE" < /path/to/content.md
+# CLI — content is inline; `overwrite` replaces an existing file.
+# Prefer the filesystem fallback for large bodies (see warning above).
+obsidian-cli create path="$NOTE" content="# Title\n\nBody paragraph." overwrite
 
 # Fallback: Claude's Write tool with absolute path
 # Write $VAULT/$NOTE with the desired content string
@@ -83,16 +91,17 @@ obsidian-cli write "$VAULT" "$NOTE" < /path/to/content.md
 
 ### Append to a note
 ```bash
-# CLI
-echo "additional content" | obsidian-cli append "$VAULT" "$NOTE"
+# CLI — content via arg, no stdin. Omit the leading newline with `inline`.
+obsidian-cli append path="$NOTE" content="additional content"
 
 # Fallback: Read $VAULT/$NOTE, append manually, Write back
 ```
 
 ### Search note content (CLI uses Obsidian's own search ranking)
 ```bash
-# CLI
-obsidian-cli search "$VAULT" "<query>"
+# CLI — query is a named arg; scope with path=<folder>, add line context with search:context
+obsidian-cli search query="<query>"
+obsidian-cli search:context query="<query>" path=wiki/ limit=20
 
 # Fallback: ripgrep
 rg --type=md "<query>" "$VAULT/wiki/"
@@ -100,9 +109,9 @@ rg --type=md "<query>" "$VAULT/wiki/"
 
 ### Today's daily note (if Daily Notes plugin is enabled)
 ```bash
-# CLI
-obsidian-cli daily:today "$VAULT"
-obsidian-cli daily:append "$VAULT" "captured at $(date)"
+# CLI — no `daily:today`; use `daily` (open), `daily:read`, `daily:path`, `daily:append`
+obsidian-cli daily:path
+obsidian-cli daily:append content="captured at $(date)"
 
 # Fallback: compute path manually
 NOTE="$VAULT/wiki/daily/$(date +%Y-%m-%d).md"
@@ -110,16 +119,16 @@ NOTE="$VAULT/wiki/daily/$(date +%Y-%m-%d).md"
 
 ### Patch a frontmatter property
 ```bash
-# CLI
-obsidian-cli property:set "$VAULT" "$NOTE" status "evergreen"
+# CLI — name= and value= are required; optional type=text|list|number|checkbox|date|datetime
+obsidian-cli property:set path="$NOTE" name=status value=evergreen
 
 # Fallback: read frontmatter, parse, mutate, rewrite (use mcp__obsidian-vault__update_frontmatter if MCP is configured)
 ```
 
 ### List backlinks for a page
 ```bash
-# CLI
-obsidian-cli backlinks "$VAULT" "$NOTE"
+# CLI — defaults to tsv; format=json|tsv|csv
+obsidian-cli backlinks path="$NOTE"
 
 # Fallback: ripgrep for wikilink references
 rg --type=md "\[\[$(basename "$NOTE" .md)" "$VAULT/wiki/"
@@ -127,17 +136,18 @@ rg --type=md "\[\[$(basename "$NOTE" .md)" "$VAULT/wiki/"
 
 ### Open a Bases (.base) file's resolved view
 ```bash
-# CLI
-obsidian-cli bases "$VAULT" "$NOTE"
-# (returns the resolved row list; supplements obsidian-bases skill which handles the .base file's YAML)
+# CLI — `bases` lists base files; `base:query` resolves a view's rows
+obsidian-cli bases
+obsidian-cli base:query path="$NOTE" format=json
+# (supplements the obsidian-bases skill, which handles the .base file's YAML)
 
 # Fallback: read the .base file directly; no resolved-view available without Obsidian itself
 ```
 
 ### Tags + bookmarks
 ```bash
-obsidian-cli tags "$VAULT"
-obsidian-cli bookmarks "$VAULT"
+obsidian-cli tags
+obsidian-cli bookmarks
 ```
 
 ---

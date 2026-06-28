@@ -58,7 +58,7 @@ log() { $QUIET || echo "$@" >&2; }
 # json_escape: read stdin and emit a JSON-encoded string (including the
 # surrounding double quotes). Used for any untrusted value that lands in the
 # transport.json heredoc — newlines, backslashes, control chars in upstream
-# binaries (obsidian-cli --version) would otherwise break the JSON.
+# binaries (obsidian-cli version) would otherwise break the JSON.
 json_escape() {
   python3 -c 'import json,sys; print(json.dumps(sys.stdin.read().strip()), end="")'
 }
@@ -126,15 +126,17 @@ if command -v obsidian-cli >/dev/null 2>&1; then
   # for the transport.json heredoc. CLI_VERSION below is pre-quoted (includes
   # the surrounding double quotes), so the heredoc emits ${CLI_VERSION}
   # without wrapping quotes.
-  CLI_VERSION_RAW="$(obsidian-cli --version 2>/dev/null | head -1 || echo unknown)"
+  # Obsidian CLI (1.12+) exposes version via the `version` subcommand, NOT
+  # `--version` (which errors with "Command not found. Did you mean: version?").
+  CLI_VERSION_RAW="$(obsidian-cli version 2>/dev/null | head -1 || echo unknown)"
   CLI_VERSION="$(printf '%s' "$CLI_VERSION_RAW" | json_escape || echo '"unknown"')"
 elif command -v obsidian >/dev/null 2>&1; then
   # Obsidian 1.12+ ships `obsidian` as the CLI binary on some platforms.
-  # We treat it as cli-capable if it accepts a --cli or --version flag without launching the GUI.
-  if obsidian --version >/dev/null 2>&1; then
+  # We treat it as cli-capable if it accepts the `version` subcommand without launching the GUI.
+  if obsidian version >/dev/null 2>&1; then
     CLI_PRESENT=true
     CLI_BINARY="obsidian"
-    CLI_VERSION_RAW="$(obsidian --version 2>/dev/null | head -1 || echo unknown)"
+    CLI_VERSION_RAW="$(obsidian version 2>/dev/null | head -1 || echo unknown)"
     CLI_VERSION="$(printf '%s' "$CLI_VERSION_RAW" | json_escape || echo '"unknown"')"
   fi
 fi
