@@ -28,6 +28,8 @@ All entity pages — people, organizations, products, and tools.
 - [[Gilbert Strang]] — MIT mathematician; lecturer of 18.06 and author of *Introduction to Linear Algebra*
 - [[Joel Grus]] — data scientist and author of *Data Science from Scratch*; "I Don't Like Notebooks"
 - [[Daniel R. Holt]] — author of *Modern Large Language Models* (2025)
+- [[Ian Goodfellow]] — inventor of GANs; lead author of *Deep Learning*
+- [[Yoshua Bengio]] — deep-learning pioneer; 2018 Turing Award; co-author of *Deep Learning*
 
 ---
 
@@ -35,6 +37,7 @@ All entity pages — people, organizations, products, and tools.
 
 - [[MIT OpenCourseWare]] — MIT's open publication of course materials; provenance host for the 18.06 archive
 - [[O'Reilly Media]] — technical-book publisher; publisher of *Data Science from Scratch*
+- [[MIT Press]] — academic press; publisher of *Deep Learning* (2016)
 
 ---
 

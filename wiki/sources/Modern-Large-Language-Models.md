@@ -1,6 +1,8 @@
 ---
 type: source
 title: "Modern Large Language Models"
+aliases:
+  - "Modern Large Language Models"
 address: c-000014
 created: 2026-06-28
 updated: 2026-06-28

@@ -68,6 +68,33 @@
         "wiki/entities/_index.md",
         "wiki/concepts/_index.md"
       ]
+    },
+    ".raw/articles/deep-learning-goodfellow-2026-06-28.md": {
+      "hash": "53421991d15057ed4df42cc26f1ddb42",
+      "ingested_at": "2026-06-28",
+      "pdf_file": ".raw/pdfs/deep-learning-goodfellow.pdf",
+      "pdf_md5": "62844ffb883bb23d81b9303703c0eb27",
+      "pages_created": [
+        "wiki/sources/Deep-Learning-Goodfellow-Bengio-Courville.md",
+        "wiki/entities/Ian Goodfellow.md",
+        "wiki/entities/Yoshua Bengio.md",
+        "wiki/entities/MIT Press.md",
+        "wiki/concepts/Backpropagation.md",
+        "wiki/concepts/Generative Adversarial Network.md",
+        "wiki/concepts/Recurrent Neural Network.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Linear Algebra.md",
+        "wiki/concepts/Self-Attention.md",
+        "wiki/sources/Modern-Large-Language-Models.md",
+        "wiki/sources/Pattern-Recognition-and-Machine-Learning.md",
+        "wiki/index.md",
+        "wiki/log.md",
+        "wiki/hot.md",
+        "wiki/sources/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md"
+      ]
     }
   },
   "address_map": {
@@ -88,6 +115,13 @@
     "wiki/entities/PyTorch.md": "c-000016",
     "wiki/concepts/Transformer.md": "c-000017",
     "wiki/concepts/Self-Attention.md": "c-000018",
-    "wiki/concepts/Retrieval-Augmented Generation.md": "c-000019"
+    "wiki/concepts/Retrieval-Augmented Generation.md": "c-000019",
+    "wiki/sources/Deep-Learning-Goodfellow-Bengio-Courville.md": "c-000020",
+    "wiki/entities/Ian Goodfellow.md": "c-000021",
+    "wiki/entities/Yoshua Bengio.md": "c-000022",
+    "wiki/entities/MIT Press.md": "c-000023",
+    "wiki/concepts/Backpropagation.md": "c-000024",
+    "wiki/concepts/Generative Adversarial Network.md": "c-000025",
+    "wiki/concepts/Recurrent Neural Network.md": "c-000026"
   }
 }

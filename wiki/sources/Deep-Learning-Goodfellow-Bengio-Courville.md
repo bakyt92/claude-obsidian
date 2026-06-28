@@ -1,6 +1,8 @@
 ---
 type: source
 title: "Deep Learning (Goodfellow, Bengio, Courville)"
+aliases:
+  - "Deep Learning (Goodfellow, Bengio, Courville)"
 address: c-000020
 created: 2026-06-28
 updated: 2026-06-28

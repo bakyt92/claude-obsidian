@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-06-28 | Total pages: 52 | Sources ingested: 5
+Last updated: 2026-06-28 | Total pages: 59 | Sources ingested: 6
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -50,6 +50,9 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Transformer]] — the attention-based architecture under modern LLMs; a stack of self-attention + FFN blocks (status: developing)
 - [[Self-Attention]] — Query/Key/Value mechanism; each token attends to all others via scaled dot products (status: developing)
 - [[Retrieval-Augmented Generation]] — RAG: retrieve external chunks, augment the prompt, generate; the technique behind wiki-retrieve (status: developing)
+- [[Backpropagation]] — reverse-mode chain rule that computes a network's gradients; the engine of deep-net training (status: developing)
+- [[Generative Adversarial Network]] — generator vs. discriminator minimax; Goodfellow's 2014 generative-modeling framework (status: developing)
+- [[Recurrent Neural Network]] — sequential hidden-state model for sequences (RNN/LSTM); the pre-transformer architecture (status: developing)
 
 ---
 
@@ -69,6 +72,9 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[O'Reilly Media]] — technical-book publisher; publisher of *Data Science from Scratch* (status: developing)
 - [[Daniel R. Holt]] — author of *Modern Large Language Models* (2025) (status: stub)
 - [[PyTorch]] — open-source deep-learning framework; the from-scratch LLM build substrate (status: developing)
+- [[Ian Goodfellow]] — inventor of GANs; lead author of the *Deep Learning* textbook (status: developing)
+- [[Yoshua Bengio]] — deep-learning pioneer; 2018 Turing Award; co-author of *Deep Learning* (status: developing)
+- [[MIT Press]] — academic publisher of *Deep Learning* (2016) (status: developing)
 
 ---
 
@@ -79,6 +85,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[MIT 18.06 Linear Algebra]] — 2026-06-28 | Gil Strang's course home page; opens the linear-algebra domain
 - [[Data Science from Scratch]] — 2026-06-28 | Joel Grus, O'Reilly 2015; implements the ML curriculum from scratch in Python
 - [[Modern Large Language Models]] — 2026-06-28 | Daniel R. Holt 2025; 721pp first-principles guide to building transformers in PyTorch
+- [[Deep Learning (Goodfellow, Bengio, Courville)]] — 2026-06-28 | MIT Press 2016; the foundational graduate deep-learning text (pre-transformer)
 
 ---
 

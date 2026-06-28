@@ -58,6 +58,9 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 - [[Transformer]] — the attention-based architecture under modern LLMs; a stack of self-attention + FFN blocks
 - [[Self-Attention]] — Query/Key/Value mechanism; each token attends to all others via scaled dot products
 - [[Retrieval-Augmented Generation]] — RAG: retrieve external chunks, augment the prompt, generate; the technique behind `wiki-retrieve`
+- [[Backpropagation]] — reverse-mode chain rule computing a network's gradients; the engine of deep-net training
+- [[Generative Adversarial Network]] — generator vs. discriminator minimax; Goodfellow's 2014 framework
+- [[Recurrent Neural Network]] — sequential hidden-state model (RNN/LSTM); the pre-transformer sequence architecture
 
 ---
 

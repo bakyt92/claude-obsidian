@@ -1,6 +1,8 @@
 ---
 type: source
 title: "Pattern Recognition and Machine Learning"
+aliases:
+  - "Pattern Recognition and Machine Learning"
 address: c-000003
 created: 2026-06-28
 updated: 2026-06-28

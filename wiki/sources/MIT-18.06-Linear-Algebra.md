@@ -1,6 +1,8 @@
 ---
 type: source
 title: "MIT 18.06 Linear Algebra"
+aliases:
+  - "MIT 18.06 Linear Algebra"
 address: c-000004
 created: 2026-06-28
 updated: 2026-06-28

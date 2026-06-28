@@ -1,6 +1,8 @@
 ---
 type: source
 title: "Data Science from Scratch"
+aliases:
+  - "Data Science from Scratch"
 address: c-000009
 created: 2026-06-28
 updated: 2026-06-28
