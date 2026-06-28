@@ -25,6 +25,13 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-06-28] ingest | Data Science for Beginners (Microsoft)
+- Source: `.raw/articles/data-science-for-beginners-2026-06-28.md` (from https://github.com/microsoft/Data-Science-For-Beginners)
+- Summary: [[Data Science for Beginners]]
+- Pages created: [[Microsoft]], [[Data Science]]
+- Pages updated: [[From-Scratch Pedagogy]] (library-first counterpoint), [[Data Science from Scratch]], [[index]], [[hot]]
+- Key insight: The library-first, beginner counterpart to [[Data Science from Scratch]] — same field, opposite pedagogy. New [[Data Science]] concept page acts as the domain hub. The [[Microsoft]] entity (with `Microsoft Research`/`Azure Cloud Advocates` aliases) resolves the long-dangling `[[Microsoft Research]]` link from PRML.
+
 ## [2026-06-28] ingest | Deep Learning (Goodfellow, Bengio, Courville)
 - Source: `.raw/articles/deep-learning-goodfellow-2026-06-28.md` (PDF at `.raw/pdfs/deep-learning-goodfellow.pdf`, 801pp; no embedded outline, ToC read from text)
 - Summary: [[Deep Learning (Goodfellow, Bengio, Courville)]]
