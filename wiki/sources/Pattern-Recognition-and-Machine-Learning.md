@@ -22,6 +22,8 @@ related:
   - "[[Approximate Inference]]"
   - "[[Kernel Methods]]"
   - "[[Linear Algebra]]"
+  - "[[Data Science from Scratch]]"
+  - "[[DSFS vs PRML]]"
 ---
 
 # Source: Pattern Recognition and Machine Learning

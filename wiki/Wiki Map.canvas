@@ -6,7 +6,7 @@
 		{"id":"s-idx","type":"file","file":"wiki/sources/_index.md","x":-101,"y":-488,"width":270,"height":80,"color":"4"},
 		{"id":"dash","type":"file","file":"wiki/meta/dashboard.md","x":187,"y":372,"width":260,"height":108,"color":"5"},
 		{"id":"ov","type":"file","file":"wiki/overview.md","x":-702,"y":-141,"width":260,"height":80,"color":"5"},
-		{"id":"llm-wiki","type":"file","file":"wiki/concepts/LLM Wiki Pattern.md","x":401,"y":-381,"width":260,"height":80,"color":"2"},
+		{"id":"llm-wiki","type":"file","file":"wiki/concepts/LLM Wiki Pattern.md","x":401,"y":-381,"width":260,"height":221,"color":"2"},
 		{"id":"hot-c","type":"file","file":"wiki/concepts/Hot Cache.md","x":-313,"y":623,"width":260,"height":80,"color":"2"},
 		{"id":"hot-m","type":"file","file":"wiki/hot.md","x":-469,"y":-691,"width":260,"height":80,"color":"5"},
 		{"id":"comp","type":"file","file":"wiki/concepts/Compounding Knowledge.md","x":593,"y":227,"width":280,"height":80,"color":"2"},

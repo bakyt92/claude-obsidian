@@ -25,6 +25,13 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-06-28] ingest | Data Science from Scratch (Joel Grus)
+- Source: `.raw/articles/data-science-from-scratch-2026-06-28.md` (PDF at `.raw/pdfs/data-science-from-scratch.pdf`, 330pp, extracted via pypdf)
+- Summary: [[Data Science from Scratch]]
+- Pages created: [[Joel Grus]], [[O'Reilly Media]], [[From-Scratch Pedagogy]], [[DSFS vs PRML]]
+- Pages updated: [[Pattern Recognition and Machine Learning]], [[Linear Algebra]] (Ch.4 cross-ref), [[index]], [[hot]]
+- Key insight: Adds the applied/code-first pole of the ML axis. Same territory as [[Pattern Recognition and Machine Learning]] but opposite altitude — the new [[DSFS vs PRML]] comparison makes the "which book" choice explicit, and [[From-Scratch Pedagogy]] names the learning philosophy.
+
 ## [2026-06-28] ingest | MIT 18.06 Linear Algebra
 - Source: `.raw/articles/mit-18.06-linear-algebra-2026-06-28.md` (from https://web.mit.edu/18.06/www/)
 - Summary: [[MIT 18.06 Linear Algebra]]
