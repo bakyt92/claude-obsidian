@@ -40,6 +40,7 @@ All source pages — summaries of ingested documents, transcripts, articles, and
 - [[Data Science from Scratch]] — 2026-06-28 | Grus, O'Reilly 2015; the ML curriculum implemented from scratch in Python
 - [[Modern Large Language Models]] — 2026-06-28 | Holt 2025; 721pp first-principles guide to building transformers in PyTorch
 - [[Deep Learning (Goodfellow, Bengio, Courville)]] — 2026-06-28 | MIT Press 2016; the foundational graduate deep-learning text (pre-transformer)
+- [[Designing Data-Intensive Applications]] — 2026-06-28 | Kleppmann, O'Reilly 2017; principles behind databases & distributed data systems
 
 ---
 

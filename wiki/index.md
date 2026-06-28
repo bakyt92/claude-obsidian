@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-06-28 | Total pages: 62 | Sources ingested: 7
+Last updated: 2026-06-28 | Total pages: 66 | Sources ingested: 8
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -54,6 +54,8 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Generative Adversarial Network]] — generator vs. discriminator minimax; Goodfellow's 2014 generative-modeling framework (status: developing)
 - [[Recurrent Neural Network]] — sequential hidden-state model for sequences (RNN/LSTM); the pre-transformer architecture (status: developing)
 - [[Data Science]] — the field: hacking + math/stats + domain expertise; the domain hub for the vault's DS/ML cluster (status: developing)
+- [[Distributed Systems]] — data/computation across many machines; replication, partitioning, consensus; the data-engineering domain hub (status: developing)
+- [[Reliability Scalability Maintainability]] — the three concerns every data system is judged on (DDIA Ch 1) (status: developing)
 
 ---
 
@@ -77,6 +79,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Yoshua Bengio]] — deep-learning pioneer; 2018 Turing Award; co-author of *Deep Learning* (status: developing)
 - [[MIT Press]] — academic publisher of *Deep Learning* (2016) (status: developing)
 - [[Microsoft]] — tech company; Azure Cloud Advocates (*For Beginners* curricula) + Microsoft Research (PRML) (status: developing)
+- [[Martin Kleppmann]] — distributed-systems researcher (Cambridge); author of DDIA; CRDTs, local-first software (status: developing)
 
 ---
 
@@ -89,6 +92,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Modern Large Language Models]] — 2026-06-28 | Daniel R. Holt 2025; 721pp first-principles guide to building transformers in PyTorch
 - [[Deep Learning (Goodfellow, Bengio, Courville)]] — 2026-06-28 | MIT Press 2016; the foundational graduate deep-learning text (pre-transformer)
 - [[Data Science for Beginners]] — 2026-06-28 | Microsoft 20-lesson curriculum; library-first, project-based intro to data science
+- [[Designing Data-Intensive Applications]] — 2026-06-28 | Kleppmann, O'Reilly 2017; the principles behind databases & distributed data systems
 
 ---
 

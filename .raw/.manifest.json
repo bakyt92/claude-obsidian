@@ -114,6 +114,27 @@
         "wiki/entities/_index.md",
         "wiki/concepts/_index.md"
       ]
+    },
+    ".raw/articles/designing-data-intensive-applications-2026-06-28.md": {
+      "hash": "7eda9b888b5b1afba69987b3a4e80466",
+      "ingested_at": "2026-06-28",
+      "pdf_file": ".raw/pdfs/designing-data-intensive-applications.pdf",
+      "pdf_md5": "9e80c0baf0329d6e48497c294f359764",
+      "pages_created": [
+        "wiki/sources/Designing-Data-Intensive-Applications.md",
+        "wiki/entities/Martin Kleppmann.md",
+        "wiki/concepts/Distributed Systems.md",
+        "wiki/concepts/Reliability Scalability Maintainability.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/O'Reilly Media.md",
+        "wiki/index.md",
+        "wiki/log.md",
+        "wiki/hot.md",
+        "wiki/sources/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md"
+      ]
     }
   },
   "address_map": {
@@ -144,6 +165,10 @@
     "wiki/concepts/Recurrent Neural Network.md": "c-000026",
     "wiki/sources/Data-Science-for-Beginners.md": "c-000027",
     "wiki/entities/Microsoft.md": "c-000028",
-    "wiki/concepts/Data Science.md": "c-000029"
+    "wiki/concepts/Data Science.md": "c-000029",
+    "wiki/sources/Designing-Data-Intensive-Applications.md": "c-000030",
+    "wiki/entities/Martin Kleppmann.md": "c-000031",
+    "wiki/concepts/Distributed Systems.md": "c-000032",
+    "wiki/concepts/Reliability Scalability Maintainability.md": "c-000033"
   }
 }

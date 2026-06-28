@@ -30,6 +30,7 @@ All entity pages — people, organizations, products, and tools.
 - [[Daniel R. Holt]] — author of *Modern Large Language Models* (2025)
 - [[Ian Goodfellow]] — inventor of GANs; lead author of *Deep Learning*
 - [[Yoshua Bengio]] — deep-learning pioneer; 2018 Turing Award; co-author of *Deep Learning*
+- [[Martin Kleppmann]] — distributed-systems researcher (Cambridge); author of DDIA; CRDTs, local-first software
 
 ---
 

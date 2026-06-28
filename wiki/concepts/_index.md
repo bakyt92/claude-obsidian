@@ -70,4 +70,11 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## Distributed Systems & Data Engineering
+
+- [[Distributed Systems]] — data/computation across many machines; replication, partitioning, consensus; domain hub
+- [[Reliability Scalability Maintainability]] — the three concerns every data system is judged on (DDIA Ch 1)
+
+---
+
 ## Add new concepts here as they are extracted from sources.
