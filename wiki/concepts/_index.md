@@ -53,4 +53,12 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## LLMs & Deep Learning
+
+- [[Transformer]] — the attention-based architecture under modern LLMs; a stack of self-attention + FFN blocks
+- [[Self-Attention]] — Query/Key/Value mechanism; each token attends to all others via scaled dot products
+- [[Retrieval-Augmented Generation]] — RAG: retrieve external chunks, augment the prompt, generate; the technique behind `wiki-retrieve`
+
+---
+
 ## Add new concepts here as they are extracted from sources.

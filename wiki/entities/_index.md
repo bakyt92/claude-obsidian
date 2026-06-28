@@ -27,6 +27,7 @@ All entity pages — people, organizations, products, and tools.
 - [[Andrej Karpathy]] — AI researcher, educator; originated the LLM Wiki pattern
 - [[Gilbert Strang]] — MIT mathematician; lecturer of 18.06 and author of *Introduction to Linear Algebra*
 - [[Joel Grus]] — data scientist and author of *Data Science from Scratch*; "I Don't Like Notebooks"
+- [[Daniel R. Holt]] — author of *Modern Large Language Models* (2025)
 
 ---
 
@@ -39,7 +40,7 @@ All entity pages — people, organizations, products, and tools.
 
 ## Products & Tools
 
-<!-- Add tool and product pages here -->
+- [[PyTorch]] — open-source deep-learning framework; substrate for the from-scratch LLM builds
 
 ---
 

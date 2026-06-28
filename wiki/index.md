@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-06-28 | Total pages: 46 | Sources ingested: 4
+Last updated: 2026-06-28 | Total pages: 52 | Sources ingested: 5
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -47,6 +47,9 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Linear Algebra]] — mathematics of vector spaces and linear maps; the factorization-centric view (LU/QR/SΛS⁻¹/SVD) and the substrate of modern ML (status: developing)
 - [[Four Fundamental Subspaces]] — Strang's signature framing: column/row space, null/left-null space and their orthogonality; the "big picture" of linear algebra (status: developing)
 - [[From-Scratch Pedagogy]] — learn a tool by building it by hand before reaching for a library; the philosophy DSFS embodies (status: developing)
+- [[Transformer]] — the attention-based architecture under modern LLMs; a stack of self-attention + FFN blocks (status: developing)
+- [[Self-Attention]] — Query/Key/Value mechanism; each token attends to all others via scaled dot products (status: developing)
+- [[Retrieval-Augmented Generation]] — RAG: retrieve external chunks, augment the prompt, generate; the technique behind wiki-retrieve (status: developing)
 
 ---
 
@@ -64,6 +67,8 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[MIT OpenCourseWare]] — MIT's open publication of course materials; provenance host for the 18.06 archive (status: developing)
 - [[Joel Grus]] — data scientist and author of *Data Science from Scratch*; "I Don't Like Notebooks" (status: developing)
 - [[O'Reilly Media]] — technical-book publisher; publisher of *Data Science from Scratch* (status: developing)
+- [[Daniel R. Holt]] — author of *Modern Large Language Models* (2025) (status: stub)
+- [[PyTorch]] — open-source deep-learning framework; the from-scratch LLM build substrate (status: developing)
 
 ---
 
@@ -73,6 +78,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Pattern Recognition and Machine Learning]] — 2026-06-28 | Bishop 2006, canonical Bayesian ML textbook
 - [[MIT 18.06 Linear Algebra]] — 2026-06-28 | Gil Strang's course home page; opens the linear-algebra domain
 - [[Data Science from Scratch]] — 2026-06-28 | Joel Grus, O'Reilly 2015; implements the ML curriculum from scratch in Python
+- [[Modern Large Language Models]] — 2026-06-28 | Daniel R. Holt 2025; 721pp first-principles guide to building transformers in PyTorch
 
 ---
 

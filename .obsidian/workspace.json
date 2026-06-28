@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CHANGELOG.md",
+                "file": "wiki/concepts/Four Fundamental Subspaces.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHANGELOG"
+              "title": "Four Fundamental Subspaces"
             }
           }
         ]
@@ -193,6 +193,34 @@
   },
   "active": "24bd202422fbcc20",
   "lastOpenFiles": [
+    "wiki/concepts/Retrieval-Augmented Generation.md",
+    "wiki/concepts/Self-Attention.md",
+    "wiki/concepts/Transformer.md",
+    "wiki/entities/PyTorch.md",
+    "wiki/entities/Daniel R. Holt.md",
+    "wiki/sources/Modern-Large-Language-Models.md",
+    "wiki/sources/MIT-18.06-Linear-Algebra.md",
+    "wiki/entities/rvk7895-llm-knowledge-bases.md",
+    "wiki/sources/claude-obsidian-ecosystem-research.md",
+    "wiki/comparisons/DSFS vs PRML.md",
+    "wiki/Wiki Map.canvas",
+    "wiki/concepts/From-Scratch Pedagogy.md",
+    "wiki/overview.md",
+    "wiki/entities/O'Reilly Media.md",
+    "wiki/entities/Joel Grus.md",
+    "wiki/sources/Pattern-Recognition-and-Machine-Learning.md",
+    "wiki/sources/Data-Science-from-Scratch.md",
+    "wiki/getting-started.md",
+    "wiki/sources/_index.md",
+    "assets/diagrams/vault-flow.svg",
+    "assets/diagrams/multi-writer-locking.svg",
+    "assets/diagrams/hybrid-retrieval.svg",
+    "CHANGELOG.md",
+    "wiki/index.md.tmp.260.7c6fbf558ec1",
+    "wiki/concepts/Four Fundamental Subspaces.md",
+    "wiki/concepts/Linear Algebra.md",
+    "wiki/entities/MIT OpenCourseWare.md",
+    "wiki/entities/Gilbert Strang.md",
     "CLAUDE.md",
     "ATTRIBUTION.md",
     "AGENTS.md",
@@ -204,7 +232,6 @@
     "scripts/__pycache__/boundary-score.cpython-313.pyc",
     "scripts/__pycache__/tiling-check.cpython-313.pyc",
     "scripts/__pycache__",
-    "skills/wiki/references/mcp-setup.md.tmp.10673.8c4ea957938c",
-    "wiki/_cli-smoketest.md"
+    "skills/wiki/references/mcp-setup.md.tmp.10673.8c4ea957938c"
   ]
 }

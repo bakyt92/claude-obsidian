@@ -44,6 +44,30 @@
         "wiki/entities/_index.md",
         "wiki/concepts/_index.md"
       ]
+    },
+    ".raw/articles/modern-large-language-models-2026-06-28.md": {
+      "hash": "f4a44e4a6b925e538d1d21ee73ae2529",
+      "ingested_at": "2026-06-28",
+      "pdf_file": ".raw/pdfs/modern-large-language-models.pdf",
+      "pdf_md5": "7152d3f99c87e856c9ffd04805693cc8",
+      "pages_created": [
+        "wiki/sources/Modern-Large-Language-Models.md",
+        "wiki/entities/Daniel R. Holt.md",
+        "wiki/entities/PyTorch.md",
+        "wiki/concepts/Transformer.md",
+        "wiki/concepts/Self-Attention.md",
+        "wiki/concepts/Retrieval-Augmented Generation.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/From-Scratch Pedagogy.md",
+        "wiki/concepts/Query-Time Retrieval.md",
+        "wiki/index.md",
+        "wiki/log.md",
+        "wiki/hot.md",
+        "wiki/sources/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md"
+      ]
     }
   },
   "address_map": {
@@ -58,6 +82,12 @@
     "wiki/entities/Joel Grus.md": "c-000010",
     "wiki/entities/O'Reilly Media.md": "c-000011",
     "wiki/concepts/From-Scratch Pedagogy.md": "c-000012",
-    "wiki/comparisons/DSFS vs PRML.md": "c-000013"
+    "wiki/comparisons/DSFS vs PRML.md": "c-000013",
+    "wiki/sources/Modern-Large-Language-Models.md": "c-000014",
+    "wiki/entities/Daniel R. Holt.md": "c-000015",
+    "wiki/entities/PyTorch.md": "c-000016",
+    "wiki/concepts/Transformer.md": "c-000017",
+    "wiki/concepts/Self-Attention.md": "c-000018",
+    "wiki/concepts/Retrieval-Augmented Generation.md": "c-000019"
   }
 }
