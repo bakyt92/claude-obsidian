@@ -23,6 +23,8 @@ related:
   - "[[Linear Algebra]]"
   - "[[Pattern Recognition and Machine Learning]]"
   - "[[DSFS vs PRML]]"
+  - "[[Data Science]]"
+  - "[[Data Science for Beginners]]"
 ---
 
 # Source: Data Science from Scratch
