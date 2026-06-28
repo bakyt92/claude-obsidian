@@ -25,6 +25,13 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-06-28] ingest | MIT 18.06 Linear Algebra
+- Source: `.raw/articles/mit-18.06-linear-algebra-2026-06-28.md` (from https://web.mit.edu/18.06/www/)
+- Summary: [[MIT 18.06 Linear Algebra]]
+- Pages created: [[Gilbert Strang]], [[MIT OpenCourseWare]], [[Linear Algebra]], [[Four Fundamental Subspaces]]
+- Pages updated: [[Pattern Recognition and Machine Learning]] (added [[Linear Algebra]] cross-ref), [[index]], [[hot]]
+- Key insight: Opens a math/linear-algebra domain in the vault and connects it to the ML stack — 18.06 supplies exactly the linear algebra ([[Four Fundamental Subspaces]], SVD, least squares) that [[Pattern Recognition and Machine Learning]] assumes but does not teach.
+
 ## [2026-04-24] save | v1.6.0 public release notes (Teams, Karpathy-style)
 - Type: release doc + visual assets
 - Locations (new): `docs/releases/v1.6.0.md` (346 lines, 6 sections, Karpathy-style prose), `wiki/meta/dragonscale-mechanism-overview.svg` (4-mechanism diagram with shared .vault-meta/ gate), `wiki/meta/dragonscale-6-test-flow.svg` (validation timeline), `wiki/meta/dragonscale-frontier-graph.svg` (M4 candidate + 3 filed pages)

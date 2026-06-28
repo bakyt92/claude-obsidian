@@ -21,6 +21,7 @@ related:
   - "[[Graphical Models]]"
   - "[[Approximate Inference]]"
   - "[[Kernel Methods]]"
+  - "[[Linear Algebra]]"
 ---
 
 # Source: Pattern Recognition and Machine Learning
