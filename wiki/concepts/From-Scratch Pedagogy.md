@@ -15,6 +15,7 @@ related:
   - "[[Joel Grus]]"
   - "[[Source-First Synthesis]]"
   - "[[Pattern Recognition and Machine Learning]]"
+  - "[[Modern Large Language Models]]"
 ---
 
 # From-Scratch Pedagogy
@@ -36,4 +37,5 @@ The teaching philosophy that you understand a tool only after **building it by h
 ## Connections in this vault
 
 - Contrast with [[Pattern Recognition and Machine Learning]], which builds understanding through **mathematical derivation** rather than code — a different "from first principles" route to the same goal. See [[DSFS vs PRML]].
+- [[Modern Large Language Models]] applies the same ethos one ML-generation later: build a GPT-mini from scratch in [[PyTorch]] to understand transformers, rather than calling a model API.
 - Rhymes with this vault's [[Source-First Synthesis]]: don't import a pre-chewed summary; read the primary source and synthesize it yourself. Same instinct, applied to knowledge work instead of algorithms.

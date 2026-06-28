@@ -25,6 +25,13 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-06-28] ingest | Modern Large Language Models (Daniel R. Holt)
+- Source: `.raw/articles/modern-large-language-models-2026-06-28.md` (PDF at `.raw/pdfs/modern-large-language-models.pdf`, 721pp, outline+metadata via pypdf)
+- Summary: [[Modern Large Language Models]]
+- Pages created: [[Daniel R. Holt]], [[PyTorch]], [[Transformer]], [[Self-Attention]], [[Retrieval-Augmented Generation]]
+- Pages updated: [[From-Scratch Pedagogy]], [[Query-Time Retrieval]], [[index]], [[hot]]
+- Key insight: First deep technical LLM source in the vault — and its RAG chapter mirrors the vault's own `wiki-retrieve` machinery. Filed [[Retrieval-Augmented Generation]] with an explicit "not a contradiction" note reconciling it with [[Wiki vs RAG]] (RAG is the technique; the wiki is curation layered on top).
+
 ## [2026-06-28] ingest | Data Science from Scratch (Joel Grus)
 - Source: `.raw/articles/data-science-from-scratch-2026-06-28.md` (PDF at `.raw/pdfs/data-science-from-scratch.pdf`, 330pp, extracted via pypdf)
 - Summary: [[Data Science from Scratch]]

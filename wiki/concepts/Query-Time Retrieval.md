@@ -14,6 +14,7 @@ related:
   - "[[LLM Wiki Pattern]]"
   - "[[Persistent Wiki Artifact]]"
   - "[[Source-First Synthesis]]"
+  - "[[Retrieval-Augmented Generation]]"
 ---
 
 # Query-Time Retrieval
