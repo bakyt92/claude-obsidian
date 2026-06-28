@@ -47,6 +47,12 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
+## Data Science
+
+- [[Data Science]] — the field (hacking + math/stats + domain expertise); domain hub for the DS/ML cluster
+
+---
+
 ## Pedagogy
 
 - [[From-Scratch Pedagogy]] — learn a tool by building it by hand before reaching for a library; the philosophy *Data Science from Scratch* embodies

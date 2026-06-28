@@ -30,6 +30,7 @@ All source pages — summaries of ingested documents, transcripts, articles, and
 ## Articles
 
 - [[MIT 18.06 Linear Algebra]] — 2026-06-28 | Gil Strang's course home page; opens the linear-algebra domain
+- [[Data Science for Beginners]] — 2026-06-28 | Microsoft 20-lesson curriculum; library-first project-based intro
 
 ---
 

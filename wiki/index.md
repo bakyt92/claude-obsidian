@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-06-28 | Total pages: 59 | Sources ingested: 6
+Last updated: 2026-06-28 | Total pages: 62 | Sources ingested: 7
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -53,6 +53,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Backpropagation]] — reverse-mode chain rule that computes a network's gradients; the engine of deep-net training (status: developing)
 - [[Generative Adversarial Network]] — generator vs. discriminator minimax; Goodfellow's 2014 generative-modeling framework (status: developing)
 - [[Recurrent Neural Network]] — sequential hidden-state model for sequences (RNN/LSTM); the pre-transformer architecture (status: developing)
+- [[Data Science]] — the field: hacking + math/stats + domain expertise; the domain hub for the vault's DS/ML cluster (status: developing)
 
 ---
 
@@ -75,6 +76,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Ian Goodfellow]] — inventor of GANs; lead author of the *Deep Learning* textbook (status: developing)
 - [[Yoshua Bengio]] — deep-learning pioneer; 2018 Turing Award; co-author of *Deep Learning* (status: developing)
 - [[MIT Press]] — academic publisher of *Deep Learning* (2016) (status: developing)
+- [[Microsoft]] — tech company; Azure Cloud Advocates (*For Beginners* curricula) + Microsoft Research (PRML) (status: developing)
 
 ---
 
@@ -86,6 +88,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Data Science from Scratch]] — 2026-06-28 | Joel Grus, O'Reilly 2015; implements the ML curriculum from scratch in Python
 - [[Modern Large Language Models]] — 2026-06-28 | Daniel R. Holt 2025; 721pp first-principles guide to building transformers in PyTorch
 - [[Deep Learning (Goodfellow, Bengio, Courville)]] — 2026-06-28 | MIT Press 2016; the foundational graduate deep-learning text (pre-transformer)
+- [[Data Science for Beginners]] — 2026-06-28 | Microsoft 20-lesson curriculum; library-first, project-based intro to data science
 
 ---
 

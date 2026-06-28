@@ -95,6 +95,25 @@
         "wiki/entities/_index.md",
         "wiki/concepts/_index.md"
       ]
+    },
+    ".raw/articles/data-science-for-beginners-2026-06-28.md": {
+      "hash": "b61badde459598738d12d127cb6969df",
+      "ingested_at": "2026-06-28",
+      "pages_created": [
+        "wiki/sources/Data-Science-for-Beginners.md",
+        "wiki/entities/Microsoft.md",
+        "wiki/concepts/Data Science.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/From-Scratch Pedagogy.md",
+        "wiki/sources/Data-Science-from-Scratch.md",
+        "wiki/index.md",
+        "wiki/log.md",
+        "wiki/hot.md",
+        "wiki/sources/_index.md",
+        "wiki/entities/_index.md",
+        "wiki/concepts/_index.md"
+      ]
     }
   },
   "address_map": {
@@ -122,6 +141,9 @@
     "wiki/entities/MIT Press.md": "c-000023",
     "wiki/concepts/Backpropagation.md": "c-000024",
     "wiki/concepts/Generative Adversarial Network.md": "c-000025",
-    "wiki/concepts/Recurrent Neural Network.md": "c-000026"
+    "wiki/concepts/Recurrent Neural Network.md": "c-000026",
+    "wiki/sources/Data-Science-for-Beginners.md": "c-000027",
+    "wiki/entities/Microsoft.md": "c-000028",
+    "wiki/concepts/Data Science.md": "c-000029"
   }
 }

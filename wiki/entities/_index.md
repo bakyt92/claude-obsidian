@@ -38,6 +38,7 @@ All entity pages — people, organizations, products, and tools.
 - [[MIT OpenCourseWare]] — MIT's open publication of course materials; provenance host for the 18.06 archive
 - [[O'Reilly Media]] — technical-book publisher; publisher of *Data Science from Scratch*
 - [[MIT Press]] — academic press; publisher of *Deep Learning* (2016)
+- [[Microsoft]] — tech company; Azure Cloud Advocates (*For Beginners* curricula) + Microsoft Research (PRML)
 
 ---
 
