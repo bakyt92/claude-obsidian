@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "477f1cf965ca606e",
+        "id": "cedf0c24a0ae2b3e",
         "type": "tabs",
         "children": [
           {
-            "id": "a31de1b302cdc5cf",
+            "id": "24bd202422fbcc20",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "CHANGELOG.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CHANGELOG"
             }
           }
         ]
@@ -187,8 +191,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "a31de1b302cdc5cf",
+  "active": "24bd202422fbcc20",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "ATTRIBUTION.md",
+    "AGENTS.md",
     "scripts/__pycache__/contextual-prefix.cpython-313.pyc",
     "scripts/__pycache__/wiki-mode.cpython-313.pyc",
     "scripts/__pycache__/rerank.cpython-313.pyc",
